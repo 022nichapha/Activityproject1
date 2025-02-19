@@ -1,5 +1,8 @@
 import { Instructor } from "./Instructor"
 class Certificate{
+    static generateCertificate(arg0: Date, arg1: string, insturctor: Instructor, signature: string, template: string) {
+        throw new Error('Method not implemented.')
+    }
     private certificateId:number
     private content:string
     private issuer:Instructor
